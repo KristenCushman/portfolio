@@ -1,0 +1,166 @@
+
+/*Homepage-styles*/
+
+#heart {
+	width: 5%;
+	height: auto;
+}
+
+#mypic {
+	width: 100%;
+	height: 350px;
+    object-fit: cover;
+}
+
+#kirshersPic {
+	width : 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#linkedIn {
+	width: 5%;
+	height: auto;
+}
+
+#containerGrid-1 {
+	display: grid;
+	flex-direction: row;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+    "topRow" "leftSidebar" "rightContent";
+}
+
+#containerGrid-2 {
+    display: grid;
+	flex-direction: row;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+    "topRow" "leftSidebar" "rightContent";
+}
+
+.flexContainer {
+    display:flex;
+}
+
+#topRow {
+    display: flex 100%;
+    grid-area: topRow;
+}
+
+#leftSidebar {
+	grid-area: leftSidebar 100%;
+}
+
+#rightContent {
+	display: flex;
+}
+
+.sidebarSection {
+    float:left;
+    width:30%;
+    background-color:aquamarine;
+}
+
+.imageSidebar {
+    background-color:azure;
+    text-align:center;
+}
+
+.socialMedia {
+    background-color:chocolate;
+    display:flex;
+}
+
+.socialMediaContent {
+    flex:50%;
+}
+
+.portfolioProjects{
+    background-color:darkseagreen;
+    width:70%;
+    float:left;
+    display:flex;
+}
+
+.projectBloc {
+    width: 35%;
+    height: 35%;
+    background-color:peachpuff;
+    flex:50%;
+}
+
+#mobile {
+    width : 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/*head {
+    background-image: url(../images/mepic.jpg);
+    height: 250px;
+    max-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+
+    background-color: E5E5E5;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: left;
+}
+body {
+    background-color: E5E5E5;
+
+    color: #353738;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    text-align: left;
+    margin: 5%;
+
+    #mypic {
+        height: 250px;
+        max-height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        size: 25%;  
+        position: :left;
+        padding: auto;
+    }
+
+    .containerGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "topRow leftSidebar rightContent";
+        height: 500px
+    }
+    .topRow {
+        grid-area: topRow;
+    }
+    .leftSidebar {
+        grid-area: leftSidebar
+    }
+    .rightContent {
+        grid-area: rightContent;
+    }
+
+    #kirshersPic {
+        width: 35px !important;
+       object-fit: cover;
+        height: 1%;
+}
+    
+    #mobile {
+        float: left;
+        size 15%}
+        
+    #linkedIn {
+        size: 15%;
+    }
+}
+*/
