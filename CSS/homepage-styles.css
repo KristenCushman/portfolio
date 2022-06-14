@@ -16,7 +16,7 @@
     width: 100%;
     height: 350px;
     object-fit: cover;
-    opacity: .5;
+    opacity: .7;
     border-radius: 25px;
 }
 
@@ -26,7 +26,7 @@
 
 .centered1 {
     position: absolute;
-    top: 40%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 25%;
@@ -46,7 +46,7 @@
 
 .centered3 {
     position: absolute;
-    top: 44%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 25%;
@@ -66,6 +66,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "topRow""leftSidebar""rightContent";
+   
 }
 
 #containerGrid-2 {
@@ -97,17 +98,17 @@
     margin: auto;
     text-align: center;
     justify-content:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .sidebarSection {
     float: left;
     width: 30%;
-    background-color: aquamarine;
 }
 
 .imageSidebar {
-    background-color: azure;
+    font-family: "Lucida Handwriting";
     text-align: center;
 }
 
@@ -117,27 +118,76 @@
 }
 
 .socialMediaContent {
-    flex: 50%;
+    flex: 30%;
+
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration:wavy;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 20%;
+    box-shadow: 2px;
 }
 
 .portfolioProjects {
-    background-color: darkseagreen;
     width: 70%;
     float: left;
     display: flex;
 }
 
 .projectBloc {
-    width: 35%;
-    height: 35%;
-    background-color: peachpuff;
+    width: 30%;
+    height: 30%;
     flex: 50%;
+    border-radius: 25%;
+    }
+
+    .centered4 {
+        position: absolute;
+        top: 38%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
+    }
+    
+    .centered5 {
+        position: absolute;
+        top: 42%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
+    }
+    
+    .centered6 {
+        position: absolute;
+        top: 46%;
+        left: 82.5%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 25%;
+        color: black;
+        padding: 1%;
 }
 
 #mobile {
     width: 100%;
     height: 350px;
     object-fit: cover;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content:center;
+    font-family: "Lucida Handwriting";
+    opacity: .7;
+    margin: .5;
 }
 
 
