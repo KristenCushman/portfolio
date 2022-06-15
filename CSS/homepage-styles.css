@@ -113,16 +113,28 @@
 }
 
 .socialMedia {
-    background-color: chocolate;
-    display: flex;
+    margin: auto;
+    text-align: center;
 }
 
 .socialMediaContent {
     flex: 30%;
-
 }
+
+#media {
+    width: 10%;
+    height: 10%;
+    object-fit: center;
+    text-align: center;
+    margin: auto;
+    display: inline block;
+   
+    }
+
+
 .button {
-    background-color: #4CAF50; /* Green */
+    margin: auto;
+    background-color: #BE9A9C; 
     border: none;
     color: white;
     padding: 10px 15px;
